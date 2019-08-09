@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic);
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #fa720d !important;
+    color: #fff !important;
+}
+
+.controls{
+	width: 100%;
+	color: #000;
+}
+
+#search{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	font-size: 1em;
+	font-weight: 300;
+	padding: 5px;
+	width: 40%;
+}
+
+#button{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-size: 1em;
+	font-weight: 300;
+	padding: 5px;
+}
+
+#results{
+	color: #990000;
+	font-size: 1em;
+	margin-left: 20px;
+}
+
+#content{
+	padding: 10px;
+	height: 495px;
+}
+
+img.image{
+	margin: 0 20px 20px 0;
+}
+
+span.finded{
+	background: rgb(0, 132, 255);
+	color: #FFF;
+}
+
+li a {
+    font-size: 26px;
+    margin-right: 10%;
+}

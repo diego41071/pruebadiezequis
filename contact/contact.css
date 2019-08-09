@@ -1,0 +1,127 @@
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+/* Centre the page */
+
+body {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+.body {
+    display:block;
+    margin:0 auto;
+    width:576px;
+}
+
+/* Centre the form within the page */
+form {
+    margin:0 auto;
+    width:459px;
+}
+
+.form{
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    padding: 20px;
+}
+
+.inputform,.labelform,#submit{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.inputform {
+    width: 99%;
+    background: rgba(221, 221, 221, 0.4);
+    padding: 20px;
+}
+
+.inputform:focus{
+    outline: 1px solid rgba(0, 0, 0, 0.7);
+} 
+.inputform:focus + .labelform{
+    margin-top: -100px;
+} 
+
+.labelform {
+    padding-left: 20px;
+    position: absolute;
+    margin-top: -73px;
+    z-index: -20;
+    color: rgba(0, 0, 0, 0.5);
+    transition: all 0.2s;
+}
+
+textarea:focus{
+    outline: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+textarea:focus + .labelform{
+    margin-top: -100px;
+}
+textarea {
+    height:213px;
+    background: transparent;
+	/* background:url(images/textarea-bg.jpg) right no-repeat #efefef; */
+}
+
+input, textarea {
+    width:439px;
+    height:27px;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+
+#submit {
+    width: 127px;
+    height: 38px;
+    /* background: url(images/submit.jpg); */
+    /* text-indent: -9999px; */
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    /* color: black; */
+}
+
+	#submit:hover {
+	    opacity:.9;
+	}
+
+	.message{
+        height: 200px;
+        width: 99%;
+    }
+
+    .block{
+        margin-top: -100px;
+    }
+    
+    h1{
+        color: #494B4D;
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 15px 0px;
+    }
+
+li a {
+    font-size: 26px;
+    margin-right: 10%;
+}

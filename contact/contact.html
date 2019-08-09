@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>CONTACTO</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-light navbar-expand-sm">
+            <img src="../carousel/diezequis.png">
+            </img>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-2"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-list-2">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../home/index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../company/company.html">Empresa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../products/products.html">Productos</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../contact/contact.html">Contacto <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <h1>Contáctenos</h1>
+        <form class="form" method="post" onsubmit="return validation()">
+            <input class="inputform" name="name" required></input>
+            <label class="labelform">Nombre</label>
+            <input class="inputform" id="Email" name="email" type="email" required>
+            <label class="labelform">Email</label>
+            <input class="inputform" id="Phone" name="message" required></input>
+            <label id="labelform" class="labelform">Teléfono</label>
+            <input class="inputform" name="message" required></input>
+            <label id="labelform" class="labelform">Mensaje</label>
+
+            <input id="submit" name="submit" type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <script src="./form.js"></script>
+</body>
+
+</html>

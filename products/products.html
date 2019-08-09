@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./products.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <title>PRODUCTOS</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-light navbar-expand-sm">
+            <img src="../carousel/diezequis.png">
+            </img>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-2"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-list-2">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../home/index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../company/company.html">Empresa <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../products/products.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contact/contact.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="wrap">
+            <h1>Escoge un producto</h1>
+            <div class="store-wrapper">
+                <div class="category_list">
+                    <a href="#" class="category_item" category="all">Todo</a>
+                    <a href="#" class="category_item" category="ordenadores">Ordenadores</a>
+                    <a href="#" class="category_item" category="laptops">Laptops</a>
+                    <a href="#" class="category_item" category="smartphones">Smartphones</a>
+                    <a href="#" class="category_item" category="monitores">Monitores</a>
+                    <a href="#" class="category_item" category="audifonos">Audifonos</a>
+                </div>
+                <section class="products-list">
+                    <div class="product-item" category="laptops">
+                        <img src="images/laptop_hp.jpg" alt="">
+                        <a href="#">Laptop Hp</a>
+                    </div>
+                    <div class="product-item" category="laptops">
+                        <img src="images/laptop_toshiba.jpg" alt="">
+                        <a href="#">Laptop Toshiba</a>
+                    </div>
+                    <div class="product-item" category="smartphones">
+                        <img src="images/samsung_galaxy.jpg" alt="">
+                        <a href="#">Samsung Galaxy</a>
+                    </div>
+                    <div class="product-item" category="smartphones">
+                        <img src="images/iphone.jpg" alt="">
+                        <a href="#">Iphone 7</a>
+                    </div>
+                    <div class="product-item" category="ordenadores">
+                        <img src="images/pc_hp.jpg" alt="">
+                        <a href="#">PC Hp</a>
+                    </div>
+                    <div class="product-item" category="ordenadores">
+                        <img src="images/pc_lenovo.jpg" alt="">
+                        <a href="#">PC Lenovo</a>
+                    </div>
+                    <div class="product-item" category="monitores">
+                        <img src="images/monitor_asus.jpg" alt="">
+                        <a href="#">Monitor Asus</a>
+                    </div>
+                    <div class="product-item" category="audifonos">
+                        <img src="images/jbl.jpg" alt="">
+                        <a href="#">Audifonos JBL</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+    <script src="./products.js"></script>
+</body>
+
+</html>
